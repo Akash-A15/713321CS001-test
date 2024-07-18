@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luvticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="web1.css">
+</head>
+<body>
+  <!-- Home -->
+   <section id="Home">
+  <div class="body">
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg" style="background: transparent; border-bottom: 2px solid rgba(0, 0, 0, .2);" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bold;font-size: 30px; color: white;">Luvticking</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home" style="font-weight: 400;font-size: 22px;color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html" style="font-weight: 400;font-size: 22px;color: white;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 400;font-size: 22px;color: white;">
+                  Booking
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="booking.html">Buses</a></li>
+                  <li><a class="dropdown-item" href="booking.html">Trains</a></li>
+                  <li><a class="dropdown-item" href="booking.html">Flights</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="booking.html">Cancel Booking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="font-weight: 400;font-size: 22px;color: white;">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html" style="font-weight: 400;font-size: 22px;color: white;">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container1">
+        <h1>Dont wait book online</h1>
+        <div class="back">
+        <form action="">
+          <input type="text" class="from1" placeholder="From"><input type="text" class="from2" placeholder="To"><input type="date" class="from3">
+        </form>
+      </div>
+      <div class="btn">
+        <a href="">Search</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- About -->
+     <div class="body3">
+      <div class="img1"><img src="img1.png" alt="error"></div>
+      <div class="container3">
+        <h1>Buses</h1>
+        <p>Buses are a convenient and cost-effective mode of transportation for short to medium distances. They offer flexibility with frequent schedules and various routes connecting cities, towns, and rural areas.</p>
+      </div>
+     </div>
+     <div class="body4">
+      <div class="container3">
+        <h1>Trains</h1>
+        <p>Trains provide a comfortable and scenic mode of transportation, ideal for medium to long-distance travel. They offer spacious seating, sleeping compartments, and dining options, ensuring a relaxed journey.</p>
+      </div>
+      <div class="img1"><img src="img3.png" alt="error"></div>
+     </div>
+     <div class="body5">
+      <div class="img1"><img src="img4.png" alt="error"></div>
+      <div class="container3">
+        <h1>Flights</h1>
+        <p>Flights are the fastest mode of transportation, suitable for long-distance and international travel. They provide unparalleled speed and efficiency, connecting major cities and countries across the globe. </p>
+      </div>
+     </div>
+
+     <section id="About">
+     <div class="body1">
+      <div class="container2">
+        <h1>About Us</h1>
+        <p>Travel is the movement of people between distant geographical locations. Travel can be done by
+          foot, bicycle, automobile, train, boat, bus, airplane, or other means, with
+          or without bags, and can be one way or round trip. Travel can also include relatively short
+          stays between successive movements.</p>
+      </div>
+     </div>
+    </section>
+
+    <!-- booking -->
+
+    <section id="booking">
+
+	    <div class="container7">
+		   <h2>Ticket Booking Form</h2>
+		   <form>
+			 <label for="from">From:</label>
+			 <input type="text" id="from" name="from"><br><br>
+			 <label for="to">To:</label>
+			 <input type="text" id="to" name="to"><br><br>
+			 <label for="date">Date:</label>
+			 <input type="date" id="date" name="date"><br><br>
+			 <label for="class">Class:</label>
+			 <select id="class" name="class">
+				<option value="Economy">Economy</option>
+				<option value="Business">Business</option>
+				<option value="First Class">First Class</option>
+			 </select><br><br>
+			 <label for="adults">Adults:</label>
+			 <input type="number" id="adults" name="adults" min="1" max="10"><br><br>
+			 <label for="children">Children:</label>
+			 <input type="number" id="children" name="children" min="0" max="5"><br><br>
+			 <input type="submit" value="Book Ticket">
+	   	 </form>
+	    </div>
+    </section>
+
+    <!-- footer Section -->
+
+    <footer class="footer">
+
+      <div class="footer-container">
+
+          <div class="footer-section about">
+              <h5>About Us</h5>
+              <p>Travel is the movement of people between distant geographical locations. Travel can be done by
+                foot, bicycle, automobile, train, boat, bus, airplane, or other means, with
+                or without bags, and can be one way or round trip. Travel can also include relatively short
+                stays between successive movements.</p>
+          </div>
+
+          <div class="footer-section links" style="margin-left: 100px;">
+              <h5>Quick Links</h5>
+              <ul>
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="login.html"  target="_blank">Sign In</a></li>
+                  <li><a href="">Sign Up</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-section social">
+              <h5>Follow Us</h5>
+              <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i> YouTube</a></li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="footer-bottom" style="margin-left: 500px;">
+          <p>&copy; 2024 Luvticking. All Rights Reserved.</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
